@@ -114,14 +114,15 @@ hr{
         grid-template-columns: repeat(1, 1fr);
     } 
     .player, .blog{
-        flex-dirrecction:column;
+        flex-direction:column;
     }
-    .courses{
+    .courses{     
         display: none;
     }
   }
   /* tablet devices */
-  @media only screen and (min-width:688px) and (max-width:992px){
+
+  /* @media only screen and (min-width:688px) and (max-width:992px){
       .container{
           width: 100%;
       }
@@ -131,4 +132,4 @@ hr{
       .blogs{
           grid-template-columns: repeat(1, 1fr);
       }
-  }
+  } */
