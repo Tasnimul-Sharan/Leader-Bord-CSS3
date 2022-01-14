@@ -1,4 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+header{
+    background-color: rgb(56, 56, 207);
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+h2{
+    color:whitesmoke;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
@@ -83,10 +100,15 @@ hr{
      width: 224px;
      height: 104px;
  }
- .course-info{
+ .course-info .course-duration{
      display: flex;
-     align-items: center;
-     justify-content: space-between;
+     align-items:center;
+     justify-content: center;
+     margin-right: 25px;
+
+ }
+ .course-author{
+    color:#ED6B4F;
  }
  .fa-star{
      font-size: 12px;
@@ -97,10 +119,18 @@ hr{
  .fa-star.empty{
      color: #858072 ;
  }
- .far{
+ span{
+     color: dimgray;
+     margin-left: 10px;
+ }
+ /* .fa-star.fa-clock{
+     display: inline;
+ } */
+ .fa-clock{
     color: #FF4A60;
     background: #FFE4E8;
     border-radius: 5px;
+    margin-left: 20px;
  }
 
  /*----------------
@@ -122,7 +152,7 @@ hr{
   }
   /* tablet devices */
 
-  /* @media only screen and (min-width:688px) and (max-width:992px){
+  @media only screen and (min-width:688px) and (max-width:992px){
       .container{
           width: 100%;
       }
@@ -132,4 +162,4 @@ hr{
       .blogs{
           grid-template-columns: repeat(1, 1fr);
       }
-  } */
+  }
